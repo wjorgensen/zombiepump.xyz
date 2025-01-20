@@ -1,0 +1,31 @@
+# Client (React) ignores
+client/node_modules
+client/.pnp
+client/.pnp.js
+client/coverage
+client/.next/
+client/out/
+client/build
+client/.vercel
+client/*.tsbuildinfo
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.pnpm-debug.log*
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Contracts (Foundry) ignores
+contracts/cache/
+contracts/out/
+!/contracts/broadcast
+/contracts/broadcast/*/31337/
+/contracts/broadcast/**/dry-run/
+contracts/docs/
+
+# General ignores
+.DS_Store
+*.pem
+.env 
